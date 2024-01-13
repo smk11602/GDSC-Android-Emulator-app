@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="numberkeypad">
+        <item name="android:textSize">40sp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="backgroundTint">@color/blue</item> <!--틴트로 넣으면 기존 버튼의 색상만 변경됨-->
+    </style>
+
+    <!--가지고 있는 속성은 numberkeypad와 동일하게 하기 위해 상속-->
+    <style name="operatorkeypad" parent="numberkeypad">
+        <item name="backgroundTint">@color/pink</item>
+    </style>
+</resources>
